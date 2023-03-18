@@ -23,12 +23,12 @@ buttons.forEach((btn) => {
         if ((e.target.value == 'rock' && computerSelection=='scissors') || (e.target.value=='paper' && computerSelection=='rock') || (e.target.value=='scissors' && computerSelection=='paper')) {
             result = 'You Won!\n'
             choice =  'You chose ' +e.target.value+ ' computer chose ' +computerSelection
-            playerScore = playerScore += 1
+            playerScore = playerScore + 1
         }
         else if ((e.target.value == 'scissors' && computerSelection=='rock') || (e.target.value=='rock' && computerSelection=='paper') || (e.target.value=='paper' && computerSelection=='scissors')) {
             result = 'You Lost!\n'
             choice =  'You chose ' +e.target.value+ ' computer chose ' +computerSelection
-            computerScore = computerScore += 1
+            computerScore = computerScore + 1
         }
         else if (e.target.value == computerSelection) {
             result = 'It\'s a Tie!'
