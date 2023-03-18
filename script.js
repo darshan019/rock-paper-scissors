@@ -32,7 +32,7 @@ buttons.forEach((btn) => {
         }
         else if (e.target.value == computerSelection) {
             result = 'It\'s a Tie!'
-            choice = choice =  'You both chose ' +e.target.value
+            choice = 'You both chose ' +e.target.value
         }
         if (playerScore == 5) {
             result = 'You Won the game!'
