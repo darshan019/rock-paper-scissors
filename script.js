@@ -45,7 +45,7 @@ buttons.forEach((btn) => {
         document.querySelector('.choice').innerText = choice
         document.querySelector('.result').innerText = result
         document.querySelector('.score1').innerText = 'Player Score:' + playerScore
-        document.querySelector('.score2').innerText = 'ComputerScore: ' + computerScore
+        document.querySelector('.score2').innerText = 'Computer Score: ' + computerScore
         return
     })
 })
